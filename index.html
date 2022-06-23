@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/homeStyle.css">
+    <title>Ebay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="cabezera"></header>
+    <div id="app">
+        <div id="categories"></div>
+        <div id="featuredProducts">
+            <h2>Featured Products</h2>
+            <p class="textPopular">Popular products right now</p>
+        </div>
+        <div id="imagesPopularProducts"></div>
+        <div class="categorieShop">
+            <h4>Shop by categories</h4>
+            <h4 class="seeAll">See All</h4>
+            <svg class="moreCategories" width="16" height="18" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z" stroke="#184A81" stroke-width="2"/>
+                <path d="M9.5 15L13.5 11L9.5 7" stroke="#184A81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div id="productsHistoryContent">
+            <div  class="art">
+                <img id="artImg" src="/src/img/arte.png" alt="imagen de categoria arte">
+                <p>Art</p>
+            </div>
+            <div class="art">
+                <img id="babyImg" src="/src/img/baby.png" alt="imagen de categoria baby">
+                <p>Baby</p>
+            </div>
+            <div class="art">
+                <img id="bookImg" src="/src/img/books.png" alt="imagen de categoria books">
+                <p>Books</p>
+            </div>
+            <div class="art">
+                <img id="photoImg" src="/src/img/photo.png" alt="imagen de categoria photo">
+                <p>Photo</p>
+            </div>
+            <div class="art">
+                <img id="collecImg" src="/src/img/collec.png" alt="imagen de categoria coleccionables">
+                <p>Collectibles</p>
+            </div>
+            <div class="art">
+                <img id="elecImg" src="/src/img/electronic.png" alt="imagen de categoria electronic">
+                <p>Electronic</p>
+            </div>
+            <div class="art">
+                <img id="crafImg" src="/src/img/craft.png" alt="imagen de categoria manualidades">
+                <p>Crafts</p>
+            </div>
+        </div>
+        <div class="categorieShop2">
+            <div class="containerExt">
+                <h4>Ending Soon</h4>
+                <h4 class="seeAll">See All</h4>
+                <svg class="moreCategories" width="16" height="18" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 11C21 5.47715 16.5228 0.999999 11 1C5.47715 1 0.999999 5.47715 1 11C1 16.5228 5.47715 21 11 21C16.5228 21 21 16.5228 21 11Z" stroke="#184A81" stroke-width="2"/>
+                    <path d="M9.5 15L13.5 11L9.5 7" stroke="#184A81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p class="textPopular">Recommended for you</p>
+        </div>
+        <div id="containtMoreitems"></div>
+    </div>
+
+    <script src="/scripts/main.js" type="module"></script>
+</body>
+</html>

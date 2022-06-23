@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="/styles/homeStyle.css">
+</head>
+<body>
+    <header id="cabezera"></header>
+    <div id="app">
+        <div id="categories"></div>
+        <div id="containerInfo">
+            <div id="contenedorDeImagenes">
+                <img id="infoIMG" src="" alt="imagen del producto">
+            </div>
+            <div id="contentInfo">
+                <p id="description"></p>
+                <div class="divCondicion">
+                    <p class="pSencillas">Condition:</p>
+                    <p id="condition"></p>
+                </div>
+                <p id="price"></p>
+                <p>Sizes</p>
+                <div id="contentSises">
+                    <div id="5" class="sises">5</div>
+                    <div id="5.5" class="sises">5.5</div>
+                    <div id="6" class="sises">6</div>
+                    <div id="6.5" class="sises">6.5</div>
+                    <div id="7" class="sises">7</div>
+                    <div id="7.5" class="sises">7.5</div>
+                    <div id="8" class="sises">8</div>
+                    <div id="8.5" class="sises">8.5</div>
+                    <div id="9" class="sises">9</div>
+                    <div id="9.5" class="sises">9.5</div>
+                    <div id="10" class="sises">10</div>
+                    <div id="10.5" class="sises">10.5</div>
+                    <div id="11" class="sises">11</div>
+                    <div id="11.5"class="sises">11.5</div>
+                    <div id="12" class="sises">12</div>
+                </div>
+                <p>Quantity</p>
+                <select id="select" name="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="campoButtons">
+                    <button id="buyNow">Buy Now</button>
+                    <button id="addCar">
+                        <svg viewBox="0 0 32 32" width="24px" height="24px">
+                            <path d="M23.52,29h-15a5.48,5.48,0,0,1-5.31-6.83L6.25,9.76a1,1,0,0,1,1-.76H24a1,1,0,0,1,1,.7l3.78,12.16a5.49,5.49,0,0,1-.83,4.91A5.41,5.41,0,0,1,23.52,29ZM8,11,5.11,22.65A3.5,3.5,0,0,0,8.48,27h15a3.44,3.44,0,0,0,2.79-1.42,3.5,3.5,0,0,0,.53-3.13L23.28,11Z"/><path d="M20,17a1,1,0,0,1-1-1V8a3,3,0,0,0-6,0v8a1,1,0,0,1-2,0V8A5,5,0,0,1,21,8v8A1,1,0,0,1,20,17Z"/>    
+                        </svg>
+                        Add to car
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/scripts/info.js" type="module"></script>
+</body>
+</html>

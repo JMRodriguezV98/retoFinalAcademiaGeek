@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+#cabezera{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: #184A81;
+    justify-content: center;
+}
+
+#logo{
+    display: flex;
+    height: 100%;
+    width: 10%;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+#logo:hover{
+    transform: scale(1.02) rotate(-5deg);
+    transition: 0.6s ease;
+}
+
+#contentSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+}
+
+#contentIcons{
+    display: flex;
+    height: 100%;
+    width: 10%;
+    justify-content: space-around;
+}
+
+.icon{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    cursor: pointer;
+}
+
+svg:hover{
+    transform: scale(1.1) rotate(-10deg);
+    transition: 0.6s ease;
+}
+
+#filter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    height: 50%;
+    width: 20%;
+    border: 1px solid white;
+    border-right: none;
+    color: white;
+}
+
+#fieldSearch{
+    height: 50%;
+    width: 70%;
+    padding-left: 1%;
+    border-radius: 0 10px 10px 0;
+    border: none;
+}
+
+#fieldSearch:focus{
+    background-color: grey;
+    color: white;
+    text-decoration: dashed;
+    outline: 1px solid white;
+    height: 47%;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+#categories{
+    padding: 0 10%;
+    display: flex;
+    height: 3%;
+    width: 100%;
+    align-items: center;
+    font-size: small;
+    justify-content: space-around;
+}
+
+.categorieSingle{
+    cursor: pointer;
+}
+
+#featuredProducts{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-flow: column;
+    height: 9%;
+    width: 80%;
+}
+
+h2{
+    cursor: default;
+}
+
+.textPopular{
+    color: #818B95;
+    cursor: default;
+}
+
+#imagesPopularProducts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 40%;
+}
+
+.categorieShop{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 4%;
+    cursor: default;
+}
+
+.seeAll{
+    margin-left: 3%;
+    color: #184A81;
+    cursor: default;
+}
+
+.moreCategories{
+    margin-left: 1%;
+}
+
+#productsHistoryContent{
+    display: flex;
+    width: 80%;
+    height: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.histories{
+    height: 80%;
+    width: 5%;
+    border-radius: 50%;
+}
+
+.containerExt{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.categorieShop2{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 4%;
+    cursor: default;
+}
+
+.containtImages{
+    width: 40%;
+    height: 80%;
+}
+
+.imgProducts{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#containtMoreitems{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagenRedonda{
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.precio{
+    color: blue;
+    cursor: pointer;
+}
+
+.art{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+#artImg{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#babyImg{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#bookImg{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#photoImg{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#collecImg{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#elecImg{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#crafImg{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#containerInfo{
+    display: flex;
+    width: 77%;
+    height: 80%;
+}
+
+#contenedorDeImagenes{
+    width: 40%;
+    height: 70%;
+}
+
+#infoIMG{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+#contentInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+#description{
+    width: 54%;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.pSencillas{
+    font-size: small;
+}
+
+.divCondicion{
+    display: flex;
+}
+
+#condition{
+    font-size: small;
+    margin-left: 10px;
+}
+
+#price{
+    color: #184A81;
+}
+
+#contentSises{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 15%;
+}
+
+.sises{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-left: 20px;
+    width: 35px;
+    cursor: pointer;
+}
+
+#select{
+    width: 10%;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.campoButtons{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+#buyNow{
+    border-radius: 10px;
+    height: 100%;
+    width: 20%;
+    background-color: #184A81;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+}
+
+#addCar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 100%;
+    width: 20%;
+    margin-left: 40px;
+    cursor: pointer;
+    border: 0.5px solid grey;
+}
+
+#tienda{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+#imagenShop{
+    height: 20%;
+    width: 20%;
+}
+
+#title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botonEliminar{
+    height: 40px;
+    width: 210px;
+    border-radius: 10px;
+    border: none;
+    background-color: #184A81;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: large;
+}
+
+.imgProductsShop{
+    width: 100px;
+    height: 100px;
+}

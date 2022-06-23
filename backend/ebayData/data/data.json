@@ -1,0 +1,68 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "nombe": "Sandalia",
+            "precio": 260.99,
+            "ubicacion": "/src/img/thumbnail.png",
+            "tipo": "Shoes"
+            ,"estado": "New"
+            ,"descripcion": "Lorem picsum"
+        },
+        {
+            "id": 2,
+            "nombe": "Zapatos",
+            "precio": 129.99,
+            "ubicacion": "/src/img/zapato.png"
+            ,"tipo": "Shoes"
+            ,"estado": "New in box"
+            ,"descripcion": "Nike Air Force 1 Custom Low Pastel Shoes Purple Yellow Blue Green Pink All Sizes"
+        },
+        {
+            "id": 3,
+            "nombe": "Mesa",
+            "precio": 60.99,
+            "ubicacion": "/src/img/mesa.png"
+            ,"tipo": "Home"
+            ,"estado": "New"
+            ,"descripcion": "Lorem picsum"
+        },
+        {
+            "id": 4,
+            "nombe": "Camara",
+            "precio": 599.99,
+            "ubicacion": "/src/img/camara.png"
+            ,"tipo": "Electronics"
+            ,"estado": "New in box"
+            ,"descripcion": "Lorem picsum"
+        },
+        {
+            "id": 5,
+            "nombe": "Audifonos",
+            "precio": 89.99,
+            "ubicacion": "/src/img/audfonos.png"
+            ,"tipo": "Electronics"
+            ,"estado": "New in box"
+            ,"descripcion": "Lorem picsum"
+        },
+        {
+            "id": 6,
+            "nombe": "Phone",
+            "precio": 800.99,
+            "ubicacion": "/src/img/phone.png"
+            ,"tipo": "Electronics"
+            ,"estado": "New in box"
+            ,"descripcion": "Lorem picsum"
+        },
+        {
+            "id": 7,
+            "nombe": "Plantas artificiales",
+            "precio": 19.99,
+            "ubicacion": "/src/img/planta.png"
+            ,"tipo": "Home"
+            ,"estado": "New in box"
+            ,"descripcion": "Lorem picsum"
+        }
+    ],
+    "carrito": []
+}
